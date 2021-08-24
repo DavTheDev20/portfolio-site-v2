@@ -138,3 +138,17 @@ nav ul {
 .current-job-text {
   width: 15%;
 }
+
+@media only screen and (min-width: 769px) {
+  #home-section {
+    padding-bottom: 1%;
+  }
+
+  .home-section-content {
+    width: 40%;
+  }
+
+  .about-me-excerpt {
+    width: 50%;
+  }
+}
