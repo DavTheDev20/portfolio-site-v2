@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  font-size: 1.3rem;
+  width: 85%;
+  font-family: 'Caveat', cursive;
+  font-size: 1.6rem;
+}
+
+.nav-logo {
+  display: flex;
+  width: 80%;
+  align-items: flex-start;
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+}
+
+.nav-links li {
+  display: flex;
+  margin: 0 20%;
+}
+
+.nav-section-links {
+  display: flex;
+  margin-top: 1.6%;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a:hover {
+  opacity: 0.75;
+}
+
+#home-section {
+  color: #fff;
+  padding-bottom: 10%;
+  background-image: url('./images/indivar-kaushik-gcA0W3OOOts-unsplash.jpg');
+  background-size: cover;
+  background-color: black;
+}
+
+.github-link {
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  margin-top: 5%;
+  stroke-width: 5px;
+}
+
+.github-link:hover {
+  opacity: 0.8;
+}
+
+.home-section-content {
+  text-align: center;
+  margin: 12.5% auto;
+  width: 20%;
+}
+
+.section-heading {
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+#about-section {
+  padding-bottom: 20%;
+}
+
+.about-me-excerpt {
+  width: 17%;
+  text-align: center;
+  line-height: 1.35;
+  margin: 2% auto;
+}
