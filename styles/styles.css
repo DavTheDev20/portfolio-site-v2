@@ -19,6 +19,7 @@ nav {
   width: 80%;
   align-items: flex-start;
   margin-top: 1.5%;
+  margin-left: 6%;
   text-align: center;
 }
 
@@ -48,14 +49,20 @@ nav ul {
   opacity: 0.75;
 }
 
-@keyframes fadein {
+/* @keyframes fadein {
   from {
     margin: -10%;
   }
   to {
     margin: 0;
   }
-}
+} */
+
+/* -webkit-animation: fadein 2s; Safari, Chrome and Opera > 12.1 */
+/* -moz-animation: fadein 2s; Firefox < 16 */
+/* -ms-animation: fadein 2s; Internet Explorer */
+/* -o-animation: fadein 2s; Opera < 12.1 */
+/* animation: fadein 2s; */
 
 #home-section {
   color: #fff;
@@ -63,11 +70,6 @@ nav ul {
   background-image: url('./images/indivar-kaushik-gcA0W3OOOts-unsplash.jpeg');
   background-size: cover;
   background-color: black;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
 }
 
 #home-section .github-link {
@@ -117,14 +119,14 @@ nav ul {
   margin-left: 1%;
 }
 
-.skills {
+.right-content {
   display: flex;
   justify-content: flex-end;
   margin-right: 15%;
   margin-top: 3%;
 }
 
-.skills-text {
+.right-content-text {
   float: left;
   text-align: right;
   width: 17.5%;
@@ -139,7 +141,7 @@ nav ul {
   width: 15%;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (max-width: 769px) {
   #home-section {
     padding-bottom: 1%;
   }
