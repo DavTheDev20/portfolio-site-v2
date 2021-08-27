@@ -25,8 +25,15 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div id="home-section" class="section">
@@ -122,11 +129,104 @@
     </div>
 
     <div id="projects-section" class="section">
-      <div>Add carousel to slide through projects</div>
+      <h1 style="text-align: center">Projects</h1>
+      <div class="main-carousel">
+        <div class="carousel-cell">
+          <div class="project-card">
+            <div class="card-head">
+              <h3>Black & Techy v2</h3>
+              <img src="styles/images/black_techy_screenshot.png" width="450" />
+              <a href="https://blkandtechy.com" target="_blank"
+                >blkandtechy.com</a
+              >
+              <div class="card-body">
+                <p>
+                  This website was built using the MERN stack with typescript
+                  instead of vanilla javascript. This was one of the first
+                  websites I created and deployed from scratch. The goal of the
+                  website is to allow minorities who are in the tech indsutry to
+                  share their experinces and passion for technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="project-card">
+            <div class="card-head">
+              <h3>Black & Techy v1</h3>
+              <img
+                src="styles/images/Screen Shot 2021-08-27 at 7.59.40 AM.png"
+                width="350"
+              />
+              <a href="https://blackandtechy.herokuapp.com/"
+                >blackandtechy.herokuapp.com</a
+              >
+            </div>
+            <div class="card-body">
+              <p>
+                This website was also built using the MERN stack as well, just
+                with vanilla javascript. It was my first attempt at building and
+                deploying a blog website. The website has now been repurposed to
+                track my 100 Days of Python Code challenge progress.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="project-card">
+            <div class="card-head">
+              <h3>Flask Blog Site</h3>
+              <img
+                src="./styles/images/Screen Shot 2021-08-27 at 8.37.31 AM.png"
+                width="400"
+                style="border: 1px solid black"
+              />
+              <a href="https://davin-blog.herokuapp.com"
+                >davin-blog.herokuapp.com</a
+              >
+            </div>
+            <div class="card-body">
+              <p>
+                This website was built with standard html, css, and javascript
+                but has a python flask backend connected to a postgres SQL
+                database.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="project-card">
+            <div class="card-head">
+              <h3>News Letter Sign-Up</h3>
+              <img
+                src="./styles/images/Screen Shot 2021-08-27 at 8.53.56 AM.png"
+                width="350"
+                style="border: 1px solid black"
+              />
+              <a
+                href="https://dry-lake-10375.herokuapp.com/"
+                style="margin-top: 5px"
+                >newslettersignup.com</a
+              >
+              <div class="card-body">
+                <p>
+                  This website was built using node.js for the backend and
+                  bootstrap for the front end. The website interacts with the
+                  mailchimp api to allow a user information into the mailchimp
+                  system.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="contact-section" class="section"></div>
 
     <footer></footer>
   </body>
+  <!-- Flickity JS -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="index.js"></script>
 </html>
