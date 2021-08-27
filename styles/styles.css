@@ -119,9 +119,14 @@ nav ul {
   margin-left: 1%;
 }
 
+.left-content-text h2 {
+  margin-bottom: 5px;
+}
+
 .right-content {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 15%;
   margin-top: 3%;
 }
@@ -131,6 +136,10 @@ nav ul {
   text-align: right;
   width: 17.5%;
   margin-right: 1%;
+}
+
+.right-content-text h2 {
+  margin-bottom: 5px;
 }
 
 .current-job {
