@@ -48,12 +48,11 @@
               <a href="#projects-section">Projects</a>
             </li>
             <li>
-              <a href="#contact-sction">Contact</a>
+              <a href="#contact-section">Contact</a>
             </li>
           </div>
         </ul>
       </nav>
-
       <div class="home-section-content">
         <h1>Hello,</h1>
         <h1>My name is Davin Reid.</h1>
@@ -81,8 +80,7 @@
       </p>
       <div class="education left-content">
         <img
-          src="https://www.desu.edu/sites/flagship/files/image/31/dsu-logo-vert.png"
-          width="350"
+          src="https://wearedante.com/2018/wp-content/uploads/2018/03/del-state.jpg"
         />
         <div class="education-text left-content-text">
           <h2>Eductation</h2>
@@ -97,28 +95,52 @@
       </div>
       <div class="skills right-content">
         <div class="skills-text right-content-text">
-          <h2>Skills & Intrests</h2>
-          <p>
-            HTML, CSS, Javascript, React, Python, Node, Express, SQL, SQLite,
-            MongoDB, Git
-          </p>
+          <h2 style="text-align: center">Skills & Intrests</h2>
+
+          <table>
+            <tr>
+              <td>
+                <ul style="list-style-position: inside; text-align: left">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Python</li>
+                </ul>
+              </td>
+              <td>
+                <ul
+                  style="display: inline; list-style-position: inside"
+                  dir="rtl"
+                >
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>SQL</li>
+                  <li>SQLite</li>
+                  <li>MongoDB</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+          <!-- HTML, CSS, Javascript, React, Python, Node, Express, SQL, SQLite,
+            MongoDB, Git -->
         </div>
         <img
           src="https://scalexm.com/wp-content/uploads/2019/11/Dynamic-Website-Designing.gif"
-          width="275"
           style="border-radius: 50px"
         />
       </div>
       <div class="current-job left-content">
         <img
-          src="https://www3.wilmingtontrust.com/content/dam/wtb-web/wtb-migration/landing-pages/cmf-2021/images/wilmingtonfamily.png"
-          width="325"
+          src="https://stopforeclosurefraud.com/wp-content/uploads/2018/06/wilm-logo-1.png"
+          style="width: 27%"
         />
         <div class="left-content-text current-job-text">
           <h2>Current Job</h2>
           <p>
             <em
-              >Global Capital Marktets Intern at
+              >Global Capital Markets Intern at
               <a href="https://www3.wilmingtontrust.com/" target="_blank"
                 >Wilmington Trust</a
               ></em
@@ -255,9 +277,22 @@
         </div>
       </div>
     </div>
-    <div id="contact-section" class="section"></div>
 
-    <footer></footer>
+    <div id="contact-section" class="section">
+      <h1>Contact</h1>
+      <form onsubmit="sendMail()">
+        <input type="text" placeholder="Name" name="name" />
+        <input type="email" placeholder="Email" name="email" />
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Message..."
+          name="message"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+    <footer style="text-align: center"></footer>
   </body>
   <!-- Flickity JS -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
