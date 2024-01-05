@@ -104,10 +104,6 @@ nav ul {
   padding-bottom: 5%;
 }
 
-#about-section img {
-  width: 20%;
-}
-
 .about-me-excerpt {
   width: 40%;
   text-align: center;
@@ -143,9 +139,19 @@ nav ul {
 
 .right-content-text {
   float: left;
+  align-items: center;
   text-align: right;
-  width: 17.5%;
-  margin-right: 1%;
+  list-style: none;
+  margin-right: 2%;
+}
+
+.right-content table {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-content ul {
+  list-style: none;
 }
 
 .right-content-text h2 {
